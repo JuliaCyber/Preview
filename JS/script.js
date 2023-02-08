@@ -1,18 +1,20 @@
 "use strict"
-let numderOfFilms = +promt ("Сколько фильмов вы уже посмотрели?", "");
+const numderOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
 
-const personalMovieDB {
-    count: numberOfFilms,
+const personalMovieDB = {
+    count: numderOfFilms,
     movies: {},
     actors: {},
     genres: [],
     privat: false
 };
 
-let a = promt ( "Один из послeдниx просмотренных фильмов?", "",);
-    b = promt ("На сколько оцените его", "");
-    c = promt ( "Один из послeдниx просмотренных фильмов?", "",);
-    d = promt ("На сколько оцените его", "");
+
+const a = prompt ( "Один из послeдниx просмотренных фильмов?", "");
+const b = prompt ("На сколько оцените его", "");
+const c = prompt ( "Один из послeдниx просмотренных фильмов?", "");
+const d = prompt ("На сколько оцените его", "");
+    
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
